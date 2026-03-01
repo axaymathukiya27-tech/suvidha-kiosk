@@ -56,7 +56,7 @@ const Index = () => {
           </div>
 
           <h1 className="text-kiosk-5xl font-bold text-foreground tracking-tight">
-            SUVIDHA
+            SUVIDHA PLUS
           </h1>
 
           <p className="text-kiosk-xl text-muted-foreground">

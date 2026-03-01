@@ -20,7 +20,7 @@ const languages = [
 ];
 
 const KioskHeader: React.FC<KioskHeaderProps> = ({
-  title = "SUVIDHA",
+  title = "SUVIDHA PLUS",
   subtitle,
   showBack = false,
   notificationCount = 0,

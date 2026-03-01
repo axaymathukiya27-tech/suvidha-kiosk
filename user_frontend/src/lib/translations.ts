@@ -5,7 +5,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     // Index / Landing
     smartCity: "Smart City",
     touchToBegin: "Touch to Begin",
-    welcomeMessage: "Welcome to SUVIDHA - Smart Urban Digital Helpdesk Assistant",
+    welcomeMessage: "Welcome to SUVIDHA PLUS - Smart Urban Digital Helpdesk Assistant",
     subtitle: "Smart Unified Virtual Interface for Digital Civic Assistance",
     clearSession: "Clear Session",
 
@@ -13,7 +13,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     selectLanguage: "Select Your Language",
     languageSubtitle: "अपनी भाषा चुनें | તમારી ભાષા પસંદ કરો",
     backToHome: "Back to Home",
-    suvidhaPlus: "SUVIDHA+",
+    suvidhaPlus: "SUVIDHA PLUS",
     smartCityCivicServices: "Smart City Civic Services",
 
     // Login
@@ -41,7 +41,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     privacyConsent: "Privacy & Consent",
     reviewBeforeContinuing: "Please review before continuing",
     termsOfUse: "Terms of Use & Privacy Policy",
-    consentTermsIntro: "By using the SUVIDHA Kiosk, you agree to the following:",
+    consentTermsIntro: "By using the SUVIDHA PLUS Kiosk, you agree to the following:",
     consentItem1: "Your personal information will be used solely for providing government services.",
     consentItem2: "Data collected includes phone number, service requests, and complaint details.",
     consentItem3: "Information may be shared with relevant government departments for service delivery.",
@@ -167,7 +167,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     privacyConsent: "गोपनीयता और सहमति",
     reviewBeforeContinuing: "जारी रखने से पहले समीक्षा करें",
     termsOfUse: "उपयोग की शर्तें और गोपनीयता नीति",
-    consentTermsIntro: "सुविधा कियोस्क का उपयोग करके, आप निम्नलिखित से सहमत हैं:",
+    consentTermsIntro: "सुविधा प्लस कियोस्क का उपयोग करके, आप निम्नलिखित से सहमत हैं:",
     consentItem1: "आपकी व्यक्तिगत जानकारी का उपयोग केवल सरकारी सेवाएं प्रदान करने के लिए किया जाएगा।",
     consentItem2: "एकत्रित डेटा में फोन नंबर, सेवा अनुरोध और शिकायत विवरण शामिल हैं।",
     consentItem3: "सेवा वितरण के लिए जानकारी संबंधित सरकारी विभागों के साथ साझा की जा सकती है।",
@@ -293,7 +293,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     privacyConsent: "ગોપનીયતા અને સંમતિ",
     reviewBeforeContinuing: "ચાલુ રાખવા પહેલાં સમીક્ષા કરો",
     termsOfUse: "ઉપયોગની શરતો અને ગોપનીયતા નીતિ",
-    consentTermsIntro: "સુવિધા કિયોસ્કનો ઉપયોગ કરીને, તમે નીચેના સાથે સંમત છો:",
+    consentTermsIntro: "સુવિધા પ્લસ કિયોસ્કનો ઉપયોગ કરીને, તમે નીચેના સાથે સંમત છો:",
     consentItem1: "તમારી વ્યક્તિગત માહિતીનો ઉપયોગ ફક્ત સરકારી સેવાઓ પૂરી પાડવા માટે થશે.",
     consentItem2: "એકત્રિત ડેટામાં ફોન નંબર, સેવા વિનંતીઓ અને ફરિયાદ વિગતો શામેલ છે.",
     consentItem3: "સેવા વિતરણ માટે માહિતી સંબંધિત સરકારી ખાતાઓ સાથે શેર કરી શકાય છે.",

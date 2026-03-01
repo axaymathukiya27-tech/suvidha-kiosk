@@ -72,7 +72,7 @@ export default function Sidebar({ collapsed, setCollapsed }: SidebarProps) {
       <div className="h-16 flex items-center justify-between px-4 border-b border-gray-800">
         {!collapsed && (
           <div>
-            <h1 className="text-lg font-bold">SUVIDHA</h1>
+            <h1 className="text-lg font-bold">SUVIDHA PLUS</h1>
             <p className="text-xs text-gray-400">Command Center</p>
           </div>
         )}

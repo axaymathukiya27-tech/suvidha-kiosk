@@ -66,7 +66,7 @@
                    <span className="text-2xl font-bold">🏛️</span>
                  </div>
                  <div className="text-right">
-                   <p className="text-kiosk-lg font-semibold">SUVIDHA+</p>
+                   <p className="text-kiosk-lg font-semibold">SUVIDHA PLUS</p>
                    <p className="text-kiosk-sm text-primary-foreground/70">Smart City Services</p>
                  </div>
                </div>

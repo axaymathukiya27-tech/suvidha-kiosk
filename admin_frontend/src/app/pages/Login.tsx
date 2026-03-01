@@ -7,7 +7,7 @@ import { Label } from '../components/ui/label';
 import { Checkbox } from '../components/ui/checkbox';
 import { Loader2 } from 'lucide-react';
 import { toast } from 'sonner';
-import backgroundImage from '../../assets/b1743a411035f94301a929b342ee85f8dca64490.png';
+import backgroundImage from '../../assets/b1743a411035f94301a929b342ee85f8dca64490.png?url';
 
 export default function Login() {
   const navigate = useNavigate();
@@ -90,7 +90,7 @@ export default function Login() {
       <div className="relative w-full max-w-md">
         <div className="bg-white/95 backdrop-blur-md rounded-lg shadow-2xl p-8">
           <div className="mb-8 text-center">
-            <h1 className="text-3xl font-bold text-gray-900 mb-2">SUVIDHA</h1>
+            <h1 className="text-3xl font-bold text-gray-900 mb-2">SUVIDHA PLUS</h1>
             <p className="text-sm text-gray-600">Admin Command Center</p>
           </div>
 

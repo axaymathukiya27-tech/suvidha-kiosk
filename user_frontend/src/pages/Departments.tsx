@@ -42,7 +42,7 @@ const Departments = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <KioskHeader
-        title="SUVIDHA"
+        title="SUVIDHA PLUS"
         subtitle={`${t("welcome")}, ${user?.name || t("citizen")}`}
         notificationCount={unreadCount}
         language={language}

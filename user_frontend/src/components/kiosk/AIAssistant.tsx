@@ -22,7 +22,7 @@
      {
        id: "1",
        type: "bot",
-       text: "Hello! I'm your SUVIDHA+ AI Assistant. How can I help you today?",
+       text: "Hello! I'm your SUVIDHA PLUS AI Assistant. How can I help you today?",
      },
    ]);
  
