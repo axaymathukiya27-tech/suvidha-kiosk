@@ -25,21 +25,20 @@ const { register } = require("./utils/metrics");
 const compression = require("compression");
 
 function buildCorsOptions(origin, callback) {
-  const list = (env.CORS_ORIGIN || "")
+  const allowed = (process.env.CORS_ORIGIN || "")
     .split(",")
-    .map((o) => o.trim())
-    .filter((o) => o.length > 0);
-  if (list.length === 0) {
+    .map(o => o.trim().replace(/\/$/, "")); // remove trailing slash
+
+  if (!origin) return callback(null, true);
+
+  const cleanOrigin = origin.replace(/\/$/, "");
+
+  if (allowed.includes(cleanOrigin)) {
     return callback(null, true);
   }
-  if (list.includes("*")) {
-    return callback(null, true);
-  }
-  if (!origin || list.includes(origin)) {
-    return callback(null, true);
-  }
-  const err = new Error("Not allowed by CORS");
-  return callback(err);
+
+  console.log("Blocked by CORS:", origin);
+  return callback(new Error("Not allowed by CORS"));
 }
 
 const app = express();

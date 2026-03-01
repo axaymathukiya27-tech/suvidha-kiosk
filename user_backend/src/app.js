@@ -33,18 +33,22 @@ const swaggerUi = require("swagger-ui-express");
 const swaggerSpec = require("./docs/swagger");
 
 function buildCorsOptions(origin, callback) {
+  console.log("Incoming Origin:", origin);
+
   const list = (process.env.CORS_ORIGIN || "")
     .split(",")
     .map((o) => o.trim())
     .filter((o) => o.length > 0);
 
+  console.log("Allowed Origins:", list);
+
   if (list.length === 0) return callback(null, true);
   if (list.includes("*")) return callback(null, true);
   if (!origin || list.includes(origin)) return callback(null, true);
 
+  console.log("CORS BLOCKED:", origin);
   return callback(new Error("Not allowed by CORS"));
 }
-
 const app = express();
 app.set("trust proxy", 1);
 
@@ -73,8 +77,8 @@ app.get("/ready", async (req, res) => {
   try {
     await pool.query("SELECT 1");
     res.json({ ok: true, service: "user_backend", db: { ok: true } });
-  } catch (e) {
-    res.status(503).json({ ok: false, service: "user_backend", db: { ok: false } });
+    } catch (e) {
+      res.status(503).json({ ok: false, service: "user_backend", db: { ok: false } });
   }
 });
 
